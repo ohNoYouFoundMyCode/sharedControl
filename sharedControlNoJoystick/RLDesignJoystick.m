@@ -2,6 +2,8 @@ clear all
 close all
 clc
 
+v0 = 1;
+
 bb = 0.254;
 I = 0.762;
 
