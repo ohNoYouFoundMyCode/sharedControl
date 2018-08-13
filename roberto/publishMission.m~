@@ -1,0 +1,4 @@
+missionPub = rospublisher('/mission','std_msgs/Float64MultiArray');
+msg = rosmessage(chatpub);
+msg.Data = [1 2 3];
+send(chatpub,msg);
